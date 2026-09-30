@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/nardi10/gitops-config
+    repoURL: https://github.com/nardi10/lab-argocd
     targetRevision: main
-    path: apps/nginx
+    path: gitops-config/apps
   destination:
     server: https://kubernetes.default.svc
     namespace: demo
